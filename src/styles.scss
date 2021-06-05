@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import "src/assets/styles/index";
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  &-inline {
+    display: inline-flex;
+    align-items: center;
+  }
+  &.column, &-inline.column {
+    flex-direction: column;
+  }
+}

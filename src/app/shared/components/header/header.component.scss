@@ -1,0 +1,22 @@
+@import "src/assets/styles/vars/color";
+
+header {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  background: $dark-accent;
+}
+
+.logo {
+  padding: 0 1rem;
+  background: $dark-accent-modified;
+  a {
+    font-size: 16px;
+    font-weight: 700;
+    color: $snow;
+    text-transform: uppercase;
+  }
+}
+
+.items {
+  width: 100%;
+  justify-content: flex-end;
+}
